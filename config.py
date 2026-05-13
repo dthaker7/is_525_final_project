@@ -9,9 +9,9 @@ import os
 
 # ── File paths ────────────────────────────────────────────────────────────────
 BASE_DIR            = os.path.dirname(os.path.abspath(__file__))
-RAW_DIR             = os.path.join(BASE_DIR, "..", "raw")
-CLEANED_DIR         = os.path.join(BASE_DIR, "..", "cleaned")
-FORECAST_DIR        = os.path.join(BASE_DIR, "..", "forecast")
+RAW_DIR             = os.path.join(BASE_DIR, "raw")
+CLEANED_DIR         = os.path.join(BASE_DIR, "cleaned")
+FORECAST_DIR        = os.path.join(BASE_DIR, "forecast")
 
 DATA_FILE           = os.path.join(RAW_DIR,      "Data_for_Datathon__Revised_.xlsx")
 CLEAN_DAILY_FILE    = os.path.join(CLEANED_DIR,  "clean_daily.csv")
