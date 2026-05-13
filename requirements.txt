@@ -1,0 +1,20 @@
+# Call Center Analytics — IS 525 Final Project
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0          # Excel file reading (.xlsx)
+scipy>=1.11.0             # Gaussian smoothing in profile builder
+
+# Machine learning
+scikit-learn>=1.3.0       # HistGradientBoostingRegressor
+
+# Database
+sqlalchemy>=2.0.0         # ORM / engine abstraction
+psycopg2-binary>=2.9.0    # PostgreSQL driver for Supabase
+python-dotenv>=1.0.0      # Load .env credentials locally
+
+# Visualization (optional — for local EDA notebooks)
+matplotlib>=3.7.0
+seaborn>=0.12.0
